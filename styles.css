@@ -34,9 +34,21 @@ body{
 }
 
 .navegacion-principal {
-
+ display: flex;  /*para usar flex */
+ justify-content: space-between; /*alinea los elementos de forma horizontal */
 }
 
 .navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none; /*quita el subrayado de los enlaces*/
+    font-size: 2rem;
+    font-weight: bold;
+    padding:1rem;
 
+
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
 }
