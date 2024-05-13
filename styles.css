@@ -20,6 +20,8 @@ html{
 
 body{
     font-size: 16px;
+    font-family: 'krub',sans-serif;
+    background-image: linear-gradient(to top, #DFE9F3 0%, var(--blanco) 100% );
 }
 
 h1{
@@ -38,6 +40,15 @@ h1,h2,h3{
     text-align: center;
 }
 
+
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+-moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.54);
+background-color: var(--blanco);
+padding: 2rem;
+border-radius: 1rem;
+}
 
 .titulo span{
     font-size: 2rem;
@@ -72,7 +83,7 @@ h1,h2,h3{
     text-decoration: none; /*quita el subrayado de los enlaces*/
     font-size: 2rem;
     font-weight: bold;
-    padding:1rem;
+    padding:1rem;  /* el padding separa lo de adentro de la caja*/
 
 
 }
@@ -88,6 +99,7 @@ h1,h2,h3{
     background-size: cover;
     height:450px ;
     position: relative;
+    margin-bottom: 2rem;  /*el margin separa las cajas*/
 }
 
 .contenido-hero{
@@ -103,7 +115,8 @@ h1,h2,h3{
 
 }
 
-.contenido-hero h2,p{
+.contenido-hero h2,
+.contenido-hero p{
     color: var(--blanco);
 }
 
