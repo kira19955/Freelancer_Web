@@ -120,7 +120,7 @@ border-radius: 1rem;
     color: var(--blanco);
 }
 
-.ubicacion{
+.contenido-hero .ubicacion{
     display: flex;
     align-items: flex-end;
 }
@@ -144,3 +144,12 @@ border-radius: 1rem;
         width: auto;
     }
 }
+
+.servicios{
+    display: grid;  /*se habilita*/
+    grid-template-columns: 300px 300px;  /*creas las columnas que cada una medira 300pc*/
+    grid-template-rows: 200px 800px;  /*creas las altura  que cada una medira 200px y 800px*/
+    /*grid: 200px 800px / 300px 300px; /* es la forma corta primero se espesifica el row y despues el column*/
+}
+
+
